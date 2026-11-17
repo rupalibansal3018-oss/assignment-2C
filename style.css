@@ -1,0 +1,57 @@
+/* --- Global Body Styling --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Navigation Bar Design --- */
+.navbar {
+    background-color: #0f172a;
+    padding: 16px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Inline Elements Styling --- */
+.nav-item {
+    display: inline-block; /* Aligns list items in a single horizontal line */
+    margin: 0 10px;
+}
+
+/* --- Links Styling (Text Properties & Display) --- */
+.nav-link {
+    display: inline;       /* Inline display property */
+    color: #e2e8f0;        /* Default text color */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 6px;    /* Rounded corners for hover effect */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* --- Pseudo-Classes & Hover Effects --- */
+.nav-link:hover {
+    background-color: #3b82f6; /* Changes background color on hover */
+    color: #ffffff;            /* Changes text color on hover */
+}
+
+/* --- Main Content Styling --- */
+.main-content {
+    text-align: center;
+    margin-top: 60px;
+    color: #334155;
+}
+
+.main-content h2 {
+    color: #0f172a;
+    font-size: 28px;
+}
